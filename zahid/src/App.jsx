@@ -1,9 +1,11 @@
 import React from "react"
 import Navbar from "./Components/Navbar"
-import WebApp from "./pages/WebApp"
-import Daignastic from "./pages/Daignastic"
-import AddDental from "./pages/AddDental"
-import AddDiagnastic from "./pages/AddDiagnastic"
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+import SlickSlider from "./Components/SlickSlider"
+import APi from "./pages/APi";
+
+
 
 
 function App() {
@@ -12,11 +14,16 @@ function App() {
   return (
     <>
   
-<Navbar/>
+{/* <Navbar/> */}
 {/* <WebApp/> */}
 {/* <Daignastic/> */}
 {/* <AddDental/> */}
-<AddDiagnastic/>
+{/* <AddDiagnastic/> */}
+{/* <Model/> */}
+{/* <Card/> */}
+{/* <Slider/> */}
+{/* <SlickSlider/> */}
+<APi/>
     </>
   )
 }
