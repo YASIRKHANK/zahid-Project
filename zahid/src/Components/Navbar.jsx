@@ -4,7 +4,7 @@ import img from '../images/yasir.png';
 
 const Navbar = () => {
   return (
-    <div className='bg-blue-950 py-5 flex justify-between items-center'>
+    <div className='bg-blue-950 py-5 flex justify-between items-center mb-2'>
       <div className="flex items-center gap-x-2"> {/* Wrap img and h1 in a flex container */}
         <img src={img} alt="Profile" className="h-10 w-10 rounded-full" /> {/* Adjust image size */}
         <h1 className="text-2xl font-bold bg-gradient-to-r from-[#AE8625] via-[#F7EF8A] to-[#D2AC47] text-transparent bg-clip-text">

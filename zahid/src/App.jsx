@@ -14,7 +14,7 @@ function App() {
   return (
     <>
   
-{/* <Navbar/> */}
+<Navbar/>
 {/* <WebApp/> */}
 {/* <Daignastic/> */}
 {/* <AddDental/> */}
